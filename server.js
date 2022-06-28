@@ -11,7 +11,7 @@ app.get("/",(req,res) =>{
 
 })
 
-app.get("/sobre", (res,req) =>{
+app.get("/sobre", (req,res) =>{
     res.render("about")
 })
 
